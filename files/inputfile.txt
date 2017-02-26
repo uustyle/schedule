@@ -1,0 +1,5 @@
+public enum WEEKDAY {
+    SUN = "Sunday",
+    MON = "Monday",
+    TUE = "Tuesday",
+}
