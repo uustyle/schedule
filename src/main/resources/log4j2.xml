@@ -4,7 +4,7 @@
 	<Properties>
 		<Property name="standard">[%d{yyyy/MM/dd HH:mm:ss.SSS}] %m%n</Property>
 		<Property name="business">[%d{yyyy/MM/dd HH:mm:ss.SSS}] %m%n</Property>
-		<Property name="dir">${env:dirname}</Property>
+		<Property name="dir" value="/Users/arakawa/Documents/workspace12/mvc"></Property>
 	</Properties>
 
 	<Appenders>
@@ -39,7 +39,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Root level="info">
+		<Root level="debug">
 			<AppenderRef ref="AsyncConsole" />
 		</Root>
 
